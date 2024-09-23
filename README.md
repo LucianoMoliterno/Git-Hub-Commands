@@ -1,98 +1,98 @@
-# Control de Versiones con Git y GitHub
+# Version Control with Git and GitHub
 
-¡Bienvenidos! En este curso aprenderás a controlar versiones y colaborar en proyectos de desarrollo web utilizando Git y GitHub. Además, veremos cómo publicar una página web con GitHub Pages. Todo lo necesario para gestionar proyectos y trabajar en equipo de manera eficiente.
+Welcome! In this course you will learn how to control versions and collaborate on web development projects using Git and GitHub. In addition, we will see how to publish a web page with GitHub Pages. Everything you need to manage projects and work as a team efficiently.
 
-## Unidades de Aprendizaje
+## Learning Units
 
-### 1. Terminal, Git y GitHub
-Aquí te enseñaré a:
-- Crear un repositorio remoto en GitHub.
-- Controlar las versiones de un proyecto.
-- Publicar una página web usando GitHub Pages.
+### 1. Terminal, Git and GitHub
+Here I will teach you how to:
+- Create a remote repository on GitHub.
+- Control the versions of a project.
+- Publish a web page using GitHub Pages.
 
-### 2. Trabajo Colaborativo y GitHub Pages
-En esta unidad aprenderás:
-- El flujo de trabajo colaborativo con Git.
-- A gestionar cambios, ramas y conflictos en proyectos colaborativos.
-- Cómo utilizar GitHub Pages para la publicación de sitios web.
+### 2. Collaborative Work and GitHub Pages
+In this unit you will learn:
+- The collaborative workflow with Git.
+- How to manage changes, branches and conflicts in collaborative projects.
+- How to use GitHub Pages for publishing websites.
 
-## Herramientas Necesarias
+## Required Tools
 
-- **Firefox**: Navegador recomendado para visualizar y probar la página web.
-- **Visual Studio Code**: El editor de código que utilizaremos. [Descargar VSCode](https://code.visualstudio.com/).
-- **Git Bash** (para Windows) / **Terminal** (para Linux y Mac): Herramientas de línea de comandos para ejecutar Git.
-- **Git**: Software de control de versiones. [Descargar Git](https://git-scm.com/downloads).
-- **GitHub / GitHub Pages**: Plataforma para alojar el código y la página web. [GitHub](https://github.com/).
-- **Xcode** (para Mac): Utilizado para instalar y actualizar Git en macOS. [Descargar Xcode](https://imageoptim.com/changelog.html).
+- **Firefox**: Recommended browser to view and test the web page.
+- **Visual Studio Code**: The code editor we will use.  [Download VSCode](https://code.visualstudio.com/).
+- **Git Bash** (for Windows) / **Terminal** (for Linux and Mac): Command line tools to run Git.
+- **Git**: Version control software. [Download Git](https://git-scm.com/downloads).
+- **GitHub / GitHub Pages**:  Platform for hosting code and website. [GitHub](https://github.com/).
+- **Xcode** (for Mac): Used to install and update Git on macOS. [Download Xcode](https://imageoptim.com/changelog.html).
 
-## ¡Empecemos!
+## Let's get started!
 
-Este curso está diseñado para que entiendas no solo cómo controlar versiones, sino también cómo colaborar efectivamente con otros en un proyecto y compartir tu trabajo con el mundo a través de GitHub Pages.
+This course is designed to help you understand not only how to control versions, but also how to effectively collaborate with others on a project and share your work with the world through GitHub Pages.
 
 ---
 
-## Paso a Paso para Controlar Versiones y Colaborar
+## Step-by-Step for Version Control and Collaboration
 
-### 1. Configuración Inicial
+### 1. Initial Setup
 
-Primero, asegúrate de tener Git instalado. Luego configura tu nombre y correo en Git:
+First, make sure you have Git installed. Then set your name and email in Git:
 
-- git config --global user.name "Tu Nombre"
-- git config --global user.email "tuemail@example.com"
+- git config --global user.name "Your Name"
+- git config --global user.email "youremail@example.com"
 
-### 2. Crear un Repositorio Local
+### 2. Create a Local Repository
 
-Para iniciar un repositorio en tu proyecto, usa el siguiente comando dentro de la carpeta de tu proyecto:
+To start a repository in your project, use the following command inside your project folder:
 
 - git init
   
-Esto iniciará el control de versiones en la carpeta donde estás trabajando.
+This will start version control in the folder you are working in.
 
-### 3. Crear un Repositorio Remoto en GitHub
+### 3. Create a Remote Repository on GitHub
 
-1) Inicia sesión en GitHub.
-2) Crea un nuevo repositorio, dale un nombre y selecciona "Create repository".
-3) Luego enlaza tu repositorio local con GitHub usando el siguiente comando (reemplaza con tu URL):
+1) Sign in to GitHub.
+2) Create a new repository, give it a name, and select "Create repository".
+3) Then link your local repository to GitHub using the following command (replace with your URL):
 
-- git remote add origin https://github.com/tuusuario/tu-repositorio.git
+- git remote add origin https://github.com/youruser/your-repository.git
 
-### 4. Realizar Cambios y Subirlos a GitHub
+### 4. Make Changes and Push Them to GitHub
 
-1) Agregar archivos al área de staging:
+1) Add files to the staging area:
    
    - git add .
      
-3) Hacer un commit con un mensaje que describa los cambios:
+3) Make a commit with a message describing your changes:
    
-   - git commit -m "Descripción de los cambios"
+   - git commit -m "Description of changes"
      
-4) Subir los cambios al repositorio remoto en GitHub:
+4) Push your changes to the remote repository on GitHub:
    
    - git push -u origin main
    
-### 5. Clonar un Repositorio Existente
+### 5. Clone an Existing Repository
 
-Si estás colaborando en un proyecto y necesitas clonar un repositorio existente:
+If you're collaborating on a project and need to clone an existing repository:
 
-- git clone https://github.com/usuario/proyecto.git
+- git clone https://github.com/user/project.git
 
-### 6. Colaboración: Pull y Push
+### 6. Collaboration: Pull and Push
 
-Para trabajar con otros, siempre es importante obtener los últimos cambios antes de hacer modificaciones:
+To work with others, it's always important to get the latest changes before making edits:
 
 - git pull origin main
 
-Después de hacer tus propios cambios, agrega y sube con:
+After making your own changes, add and push with:
 
 - git add .
-- git commit -m "Descripción de cambios"
+- git commit -m "Description of changes"
 - git push origin main
 
-### 7. Publicar una Página Web con GitHub Pages
+### 7. Publish a Web Page with GitHub Pages
 
-Para publicar tu proyecto como una página web:
+To publish your project as a web page:
 
-1) Ve a la pestaña Settings en tu repositorio de GitHub.
-2) En GitHub Pages, selecciona la rama main y la carpeta /root.
-3) ¡Listo! Tu página estará disponible en https://tuusuario.github.io/tu-repositorio/.
+1) Go to the Settings tab in your GitHub repository.
+2) In GitHub Pages, select the main branch and the /root folder.
+3) You're done! Your page will be available at https://youruser.github.io/your-repository/.
 
