@@ -37,16 +37,15 @@ Este curso está diseñado para que entiendas no solo cómo controlar versiones,
 
 Primero, asegúrate de tener Git instalado. Luego configura tu nombre y correo en Git:
 
-bash
-git config --global user.name "Tu Nombre"
-git config --global user.email "tuemail@example.com"
+- git config --global user.name "Tu Nombre"
+- git config --global user.email "tuemail@example.com"
 
 ### 2. Crear un Repositorio Local
 
 Para iniciar un repositorio en tu proyecto, usa el siguiente comando dentro de la carpeta de tu proyecto:
 
-bash
-git init
+- git init
+- 
 Esto iniciará el control de versiones en la carpeta donde estás trabajando.
 
 ### 3. Crear un Repositorio Remoto en GitHub
@@ -55,41 +54,39 @@ Esto iniciará el control de versiones en la carpeta donde estás trabajando.
 2) Crea un nuevo repositorio, dale un nombre y selecciona "Create repository".
 3) Luego enlaza tu repositorio local con GitHub usando el siguiente comando (reemplaza con tu URL):
 
-bash
-git remote add origin https://github.com/tuusuario/tu-repositorio.git
+- git remote add origin https://github.com/tuusuario/tu-repositorio.git
 
 ### 4. Realizar Cambios y Subirlos a GitHub
 
 1) Agregar archivos al área de staging:
-   bash
-   git add .
-2) Hacer un commit con un mensaje que describa los cambios:
-   bash
-   git commit -m "Descripción de los cambios"
-3) Subir los cambios al repositorio remoto en GitHub:
-   bash
-   git push -u origin main
+   
+   - git add .
+     
+3) Hacer un commit con un mensaje que describa los cambios:
+   
+   - git commit -m "Descripción de los cambios"
+     
+4) Subir los cambios al repositorio remoto en GitHub:
+   
+   - git push -u origin main
    
 ### 5. Clonar un Repositorio Existente
 
 Si estás colaborando en un proyecto y necesitas clonar un repositorio existente:
 
-bash
-git clone https://github.com/usuario/proyecto.git
+- git clone https://github.com/usuario/proyecto.git
 
 ### 6. Colaboración: Pull y Push
 
 Para trabajar con otros, siempre es importante obtener los últimos cambios antes de hacer modificaciones:
 
-bash
-git pull origin main
+- git pull origin main
 
 Después de hacer tus propios cambios, agrega y sube con:
 
-bash
-git add .
-git commit -m "Descripción de cambios"
-git push origin main
+- git add .
+- git commit -m "Descripción de cambios"
+- git push origin main
 
 ### 7. Publicar una Página Web con GitHub Pages
 
