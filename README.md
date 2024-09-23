@@ -45,7 +45,7 @@ Primero, asegúrate de tener Git instalado. Luego configura tu nombre y correo e
 Para iniciar un repositorio en tu proyecto, usa el siguiente comando dentro de la carpeta de tu proyecto:
 
 - git init
-- 
+  
 Esto iniciará el control de versiones en la carpeta donde estás trabajando.
 
 ### 3. Crear un Repositorio Remoto en GitHub
